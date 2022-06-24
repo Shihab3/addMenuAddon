@@ -26,7 +26,7 @@ def AddMenu():
     #camera menu
     bpy.ops.object.camera_add()
     caM = bpy.context.object
-    caM.name = 'Camera_Menu'
+    caM.name = 'cameraMenu'
     caM.location = ((3, 4, 13))
     caM.rotation_euler = (0, 0, 7.84)
     caM.data.lens = (20)
@@ -35,7 +35,7 @@ def AddMenu():
     #add play and settings
     bpy.ops.mesh.primitive_plane_add()
     play = bpy.context.object
-    play.name = 'Play_Button'
+    play.name = 'playButton'
     play.game.physics_type = 'STATIC'
     play.scale = ((1.2, 3.2, 1))
     play.location = ((0, 4, 0.3))
@@ -48,7 +48,7 @@ def AddMenu():
     #text play
     bpy.ops.object.text_add()
     Text = bpy.context.object
-    Text.name = 'Text_Play'
+    Text.name = 'textPlay'
     Text.game.physics_type = 'NO_COLLISION'
     Text.scale = ((2, 2, 1))
     Text.location = ((0.6, 1.5, 0.4))
@@ -58,7 +58,7 @@ def AddMenu():
     #add developer and settings
     bpy.ops.mesh.primitive_plane_add()
     developer = bpy.context.object
-    developer.name = 'Developer_Button'
+    developer.name = 'developerButton'
     developer.game.physics_type = 'STATIC'
     developer.scale = ((1.2, 6.2, 1))
     developer.location = ((3, 4, 0.3))
@@ -68,7 +68,7 @@ def AddMenu():
     #text develpoer
     bpy.ops.object.text_add()
     Text3 = bpy.context.object
-    Text3.name = 'Text_Developer'
+    Text3.name = 'textDeveloper'
     Text3.game.physics_type = 'NO_COLLISION'
     Text3.scale = ((2, 2, 1))
     Text3.location = ((3.6, -1.9, 0.4))
@@ -79,7 +79,7 @@ def AddMenu():
     #add quit and settings
     bpy.ops.mesh.primitive_plane_add()
     Quit = bpy.context.object
-    Quit.name = 'Quit_Button'
+    Quit.name = 'quitButton'
     Quit.game.physics_type = 'STATIC'
     Quit.scale = ((1.2, 3.2, 1))
     Quit.location = ((6, 4, 0.3))
@@ -89,7 +89,7 @@ def AddMenu():
     #text quit
     bpy.ops.object.text_add()
     Text2 = bpy.context.object
-    Text2.name = 'Text_quit'
+    Text2.name = 'textQuit'
     Text2.game.physics_type = 'NO_COLLISION'
     Text2.scale = ((2, 2, 1))
     Text2.location = ((6.6, 1.5, 0.4))
@@ -99,7 +99,7 @@ def AddMenu():
     #camera menu
     bpy.ops.object.camera_add()
     caM2 = bpy.context.object
-    caM2.name = 'Camera_developer'
+    caM2.name = 'cameraDeveloper'
     caM2.location = ((3, 28, 13))
     caM2.rotation_euler = (0, 0, 7.84)
     caM2.data.lens = (20)
@@ -107,7 +107,7 @@ def AddMenu():
     #plane developer
     bpy.ops.mesh.primitive_plane_add()
     imgv = bpy.context.object
-    imgv.name = 'Developer Imgae'
+    imgv.name = 'developerImage'
     imgv.game.physics_type = "NO_COLLISION"
     imgv.scale = ((6.3, 10.6, 0))
     imgv.location = ((3, 28, 0))
@@ -123,7 +123,7 @@ def AddMenu():
     #back plane
     bpy.ops.mesh.primitive_plane_add()
     bak = bpy.context.object
-    bak.name = "Back_Button"
+    bak.name = "backButton"
     bak.game.physics_type = "STATIC"
     bak.scale = ((1.2, 3.2, 1))
     bak.location = ((7.5, 21.5, 0.2))
@@ -133,17 +133,11 @@ def AddMenu():
     bpy.ops.object.material_slot_add()
     bak.data.materials[0] = mat3
     mat3.use_shadeless = True
-    #cTex = bpy.data.textures.new("Texture Back", type = 'IMAGE')
-    #mtex = mat3.texture_slots.add()
-    #mtex.texture = cTex
-    #cTex.use_alpha = True
-    #mat3.use_transparency = True
-    #mat3.alpha = 0.0
     
     #back text
     bpy.ops.object.text_add()
     Text4 = bpy.context.object
-    Text4.name = 'Text back'
+    Text4.name = 'textBack'
     Text4.game.physics_type = 'NO_COLLISION'
     Text4.scale = ((2, 2, 1))
     Text4.location = ((8.1, 18.6, 0.3))
