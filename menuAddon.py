@@ -1,22 +1,20 @@
 ###########################################################
 #
+#     This addon made by Shihab.
 #
-#     This addon made in IRAQ and by Shihab Al-Den:
-#          
-#
-#
-# This addon completly free you cane tack all of this codes
+#     This addon completly free.
+#      
 ###########################################################
 bl_info = {
-     "name": "Add Menu", 
-     "category": "Game Engine", 
-     "author": "Shihab Al-Den", 
-     "blender": (2,79,0), 
-     "location": "View3D > UI toolbar (n)", 
-     "description":"Adds Menu", "version":(2,2), 
-     "wiki_url": "https://blenderartists.org/t/addon-add-menu/1255135",
-    "tracker_url": "https://blenderartists.org/t/addon-add-menu/1255135"
-     }
+     "name"       : "Add Menu", 
+     "category"   : "Game Engine", 
+     "author"     : "Shihab", 
+     "blender"    : (2,79,0), 
+     "location"   : "View3D > UI toolbar (n)", 
+     "description": "Adds Menu", "version":(2,2), 
+     "wiki_url"   : "https://blenderartists.org/t/addon-add-menu/1255135",
+    "tracker_url" : "https://blenderartists.org/t/addon-add-menu/1255135"
+}
 
 import bpy
 import math
