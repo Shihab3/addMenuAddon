@@ -1,14 +1,14 @@
 ###########################################################
 #
-#     This addon made by Shihab.
+#     This addon made by Xiaour.
 #
-#     This addon completly free.
+#     This addon completely free.
 #      
 ###########################################################
 bl_info = {
      "name"       : "Add Menu", 
      "category"   : "Game Engine", 
-     "author"     : "Shihab", 
+     "author"     : "Xiaour", 
      "blender"    : (2,79,0), 
      "location"   : "View3D > UI toolbar (n)", 
      "description": "Adds Menu", "version":(2,2), 
